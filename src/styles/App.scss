@@ -1,0 +1,26 @@
+// Vars and Mixins
+@import './vars';
+
+@import './todo';
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.app-title {
+    background-color: $todoColor;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 0 auto;
+    padding: 0.25em;
+    width: 5em;
+}
+
+.App {
+    background-image: url('../images/cork-board.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: $fullHeight;
+    text-align: center;
+}
